@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://unpkg.com/wavesurfer.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d1cdb0a29.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sound">
+        <div class="titre">
+            <p id="titre" data-text="">Moula</p>
+        </div>
+        <div class="image">
+           
+            <img src="./img/neon.jpg" alt="" width="200" height="200">
+        </div>
+        <audio title="Moula"   src="./sound/01-mhd-la_moula-fr3sh.mp3" >  </audio> 
+        <div class="button">
+            <button id="previous" onclick="prev() "><i class="fas fa-backward"></i></button>
+            <button id="play"><i id="playpause" class="fas fa-play"></i></button>
+            <button id="next" onclick="next() "><i class="fas fa-forward"></i></button>
+        </div> 
+        <div id="waveform">
+
+        </div>
+    </div>
+    <script src="./java/script.js"></script>
+</body>
+</html>
